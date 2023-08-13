@@ -1,5 +1,0 @@
-export const PRODUCTS_ID = Object.freeze({
-    WORKING_CAPITAL_ID:'d399d34a-8424-48e6-acec-6de953da8480',
-    TERM_LOAN_ID:'60bab611-07f8-4788-b5d0-890db4806d58',
-    SUPPLY_CHAIN_ID:'13043b21-ba6d-4f6f-b65e-51fce978249b'
-})
