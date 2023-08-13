@@ -1,0 +1,47 @@
+export const COMMENTS_TEST = Object.freeze([
+    {
+        id: 1,
+        comment: 'This is the first comment',
+        createdBy: 'Isaid Graterol',
+        type: 'Query',
+        title:'Comment 1',
+        top: 858,
+        left: 344,
+    },
+    {
+        id: 2,
+        comment: 'This is the second comment',
+        createdBy: 'Isaid Graterol',
+        type: 'Resolved',
+        title:'Comment 2',
+        top: 343,
+        left: 59,
+    },
+    {
+        id: 3,
+        comment: 'This is the third comment',
+        createdBy: 'Isaid Graterol',
+        type: 'Urgent',
+        title:'Comment 3',
+        top: 1214,
+        left: 359,
+    },
+    {
+        id: 4,
+        comment: 'This is the fourth comment',
+        createdBy: 'Isaid Graterol',
+        type: 'Pending',
+        title:'Comment 4',
+        top: 359,
+        left: 830,
+    },
+    {
+        id: 5,
+        comment: 'This is the fifth comment',
+        createdBy: 'Isaid Graterol',
+        type: 'Query',
+        title:'Comment 5',
+        top: 840,
+        left: 901,
+    }
+])

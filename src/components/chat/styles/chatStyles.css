@@ -1,0 +1,98 @@
+.cs-main-container{
+    border-radius: 20px !important;
+    border: none !important;
+    box-shadow: 5px 5px 5px 5px #f3f3f5;
+}
+
+.cs-conversation-header{
+    background-image: linear-gradient(to bottom right, #4C5EFE 0%, #290088 315.22%);
+    color:white;   
+}
+
+.cs-conversation-header__user-name{
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.cs-chat-container{
+    max-height: 80vh;
+}
+
+.cs-button--arrow{
+    color:white;
+}
+
+.cs-message-list{
+    overflow-y: scroll;
+    min-height: 25vh;
+}
+
+.cs-message-input__content-editor, .cs-message-input__content-editor-wrapper{
+    background-color: #F1F3FE !important;
+}
+
+.cs-message--outgoing .cs-message__content{
+    background-image: linear-gradient(to bottom right, #4C5EFE 0%, #290088 315.22%);
+    color: white;
+}
+
+.cs-message--incoming .cs-message__content{
+    background-color: #F1F3FE !important
+}
+
+.dots-img path {
+    fill: blue;
+  }
+
+/* .cs-message-list{
+    max-height: 70vh;
+    overflow-y: scroll;
+} */
+
+.cs-message__content{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.cs-button--send{
+    color: #4C5EFE !important;
+}
+
+.reply-box{
+    padding: .2rem .5rem;
+    /* border-left: 1px solid rgb(194, 193, 193); */
+    /* border-right: 1px solid rgb(194, 193, 193); */
+    border-radius: 5px;
+    background: rgba(194, 193, 193, .5);
+    margin-bottom: -1rem;
+    font-size: .75rem;
+}
+
+.reply-box-2{
+    padding: .2rem .5rem;
+    /* border-left: 1px solid rgb(194, 193, 193); */
+    /* border-right: 1px solid rgb(194, 193, 193); */
+    border-radius: 5px;
+    background: rgba(194, 193, 193, .5);
+    font-size: .75rem;
+}
+
+.cs-message__header, .message-actions{
+    transition: all ease .7s;
+}
+
+@media (max-width: 600px) {
+    .facet_sidebar {
+      display: none;
+    }
+  }
+
+  .status-border {
+	border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #00C853, #B2FF59);
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }

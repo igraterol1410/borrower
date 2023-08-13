@@ -1,0 +1,27 @@
+.dashboard-navbar{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-basis: 7%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 23px;
+    font-weight: 400;
+    padding: 1rem;
+}
+
+.dashboard-navbar ul{
+    width: 30%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.dashboard-navbar ul .navbar-item{
+    text-decoration: none;
+    display: flex;
+    gap: .75rem;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
